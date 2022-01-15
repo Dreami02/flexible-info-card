@@ -5,7 +5,7 @@ html {
 }
 
 *,
-*::before
+*::before,
 *::after {
   box-sizing: inherit;
 }
@@ -15,12 +15,13 @@ body {
 }
 
 section {
-  background-color: #444,;
+  background-color: #ccc;
   padding: 2em;
 }
 
 h2 {
   margin: 0 0 1.5rem;
+  text-align: center;
 }
 
 ul {
@@ -29,16 +30,18 @@ ul {
   list-style-type: none;
 }
 
- li {
-   display:  flex;
-   align-items: center;
-   justify-content: space-between;
-   gap: 4em;
- }
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4em;
+}
 
 img {
-  width: 5em;
-  margin-right: 1.5rem;
+  width: 6rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 hgroup {
@@ -55,8 +58,8 @@ p {
 }
 
 a {
-  background-color: #000 ;
-  color: #ffffff;
+  background-color: #444;
+  color: #fff;
   text-decoration: none;
   padding: .5rem 1rem .6rem;
 }
